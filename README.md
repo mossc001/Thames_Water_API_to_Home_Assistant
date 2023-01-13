@@ -6,6 +6,8 @@ This guide shows you how to query the Thames Water API and get data into Home As
 ## API Access
 Once registered and confirmed, log in (https://data.thameswater.co.uk/s/login/) and then use the 'Request Access' button that appears above to gain credentials for this API. Approvals are automatic and your credentials will then be available via the 'My Applications' link at the top of the page.
 
+The Thames Water API pages provide their own examples of how to query the API therefore you can build a different example to the below integration.
+
 ## Home Assistant Integration
 Home Assistant uses RESTful to query the Thames Water API. Use the YAML below in your configuration.yaml but with your own 'client_id' and 'client_secret'; note that I've only selected a singular EDM station and the sensors I want from the JSON output.
 
